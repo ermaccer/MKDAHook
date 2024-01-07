@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\mkda">
+      <UniqueIdentifier>{9f66c3b9-8ead-42c5-ad80-4e1208648d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fatality">
+      <UniqueIdentifier>{183b9ccc-a914-4980-bf03-7e53519c3941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pcsx2">
+      <UniqueIdentifier>{77d94cd8-c1ff-4d24-bfb6-a244aa32a5f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="linkfile">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="makefile">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mkda\script.c">
+      <Filter>Header Files\mkda</Filter>
+    </ClCompile>
+    <ClCompile Include="mips.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ps2mem.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mkda\core.c">
+      <Filter>Header Files\mkda</Filter>
+    </ClCompile>
+    <ClCompile Include="fatality\quanchi.c">
+      <Filter>Header Files\fatality</Filter>
+    </ClCompile>
+    <ClCompile Include="mkda\camera.c">
+      <Filter>Header Files\mkda</Filter>
+    </ClCompile>
+    <ClCompile Include="mkdahook.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mkda\object.c">
+      <Filter>Header Files\mkda</Filter>
+    </ClCompile>
+    <ClCompile Include="inf.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcsx2\inireader.c">
+      <Filter>Header Files\pcsx2</Filter>
+    </ClCompile>
+    <ClCompile Include="pcsx2\rini.c">
+      <Filter>Header Files\pcsx2</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mkda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mkda\script.h">
+      <Filter>Header Files\mkda</Filter>
+    </ClInclude>
+    <ClInclude Include="mips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ps2mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mkda\core.h">
+      <Filter>Header Files\mkda</Filter>
+    </ClInclude>
+    <ClInclude Include="fatality\quanchi.h">
+      <Filter>Header Files\fatality</Filter>
+    </ClInclude>
+    <ClInclude Include="mkda\camera.h">
+      <Filter>Header Files\mkda</Filter>
+    </ClInclude>
+    <ClInclude Include="mkdahook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mkda\object.h">
+      <Filter>Header Files\mkda</Filter>
+    </ClInclude>
+    <ClInclude Include="inf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcsx2\inireader.h">
+      <Filter>Header Files\pcsx2</Filter>
+    </ClInclude>
+    <ClInclude Include="pcsx2\rini.h">
+      <Filter>Header Files\pcsx2</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
